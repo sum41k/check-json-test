@@ -1,0 +1,6 @@
+- id: check-json
+  name: Check JSON
+  description: This hook checks json files for parseable syntax.
+  entry: hooks/check-json.py
+  language: python
+  types: [json]
